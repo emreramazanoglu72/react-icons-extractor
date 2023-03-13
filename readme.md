@@ -8,7 +8,7 @@ This script extracts all used icons in a React project and saves them as SVG fil
 To use this script, you need to install the required packages:
 
 ```shell
-npm install react-icon-extractor or yarn add react-icon-extractor
+npm install react-icons-extractor or yarn add react-icons-extractor
 ```
 
 ## Usage
@@ -18,18 +18,18 @@ Create a script in your project's package.json file and define this script to ru
 ```json
 {  
 "scripts":  { 
- "react-icon-extractor":  "react-icon-extractor"  
+ "react-icons-extractor": "node node_modules/react-icons-extractor/index.js"
  }
 }
 ```
 #### Run command for npm
 ```shell
-npm react-icon-extractor
+npm react-icons-extractor
 ```
 
 #### Run command for yarn
 ```shell
-yarn react-icon-extractor
+yarn react-icons-extractor
 ```
 
 
