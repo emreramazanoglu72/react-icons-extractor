@@ -1,0 +1,33 @@
+{
+  "name": "react-icon-extractor",
+  "version": "1.0.1",
+  "description": "React Icon Optimizer allows you to reduce the build size by deleting unused icons in the React Icons library used in React projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-icon-extractor/index.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emreramazanoglu72/react-icon-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emreramazanoglu72/react-icon-extractor/issues"
+  },
+  "homepage": "https://github.com/emreramazanoglu72/react-icon-extractor#readme",
+  "keywords": [
+    "react",
+    "javascript",
+    "node js",
+    "react-icons"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "colors": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  }
+}
