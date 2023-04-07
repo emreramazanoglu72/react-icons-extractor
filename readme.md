@@ -12,26 +12,10 @@ npm install react-icons-extractor or yarn add react-icons-extractor
 ```
 
 ## Usage
-
-
-Create a script in your project's package.json file and define this script to run react-icons-localizer:
-```json
-{  
-"scripts":  { 
- "react-icons-extractor": "node node_modules/react-icons-extractor/index.js"
- }
-}
-```
-#### Run command for npm
+#### Run command for npx
 ```shell
-npm react-icons-extractor
+npx react-icons-extractor
 ```
-
-#### Run command for yarn
-```shell
-yarn react-icons-extractor
-```
-
 
 ## Icons
 This script only supports icons from the following icon families:
