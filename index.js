@@ -144,7 +144,7 @@ const replaceIconsInFile = (filePath, iconMappings) => {
     fs.writeFileSync(filePath, newContent);
 };
 
-const copyIcons = () => {
+const copyIcons = async() => {
     const iconMappings = getIconMappings();
 
     const traverseDirectory = (dirPath) => {
@@ -167,7 +167,7 @@ const copyIcons = () => {
     const command = process.argv[2];
 }
 
-const removeReactIconsPackage = () => {
+const removeReactIconsPackage = async () => {
     exec('npm remove react-icons');
 }
 
@@ -220,6 +220,9 @@ const main = () => {
     });
 
 };
-
-
-main();
+if (fs.existsSync('./node_modules/react-icons')) {
+    main();
+} else {
+  console.error('The react-icons folder could not be found. The program is terminating.');
+  process.exit(1);
+}
