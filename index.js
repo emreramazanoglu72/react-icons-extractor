@@ -74,7 +74,7 @@ function getIconSvg(iconName) {
     }
     // SVG dosyasını oluşturur.
     const svgMarkup = renderToStaticMarkup(createElement(IconComponent));
-    const outputDir = path.join(__dirname, "public/assets", "icons");
+    const outputDir = path.join("public/assets", "icons");
 
     // Klasör yoksa oluştur
     if (!fs.existsSync(outputDir)) {
