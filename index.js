@@ -203,8 +203,8 @@ const main = () => {
                 break;
             case '2':
                 console.log(colors.blue('React-icons library will be removed and icons will be copied...'));
-                await removeReactIconsPackage();
                 await copyIcons();
+                await removeReactIconsPackage();
                 console.log(colors.green('Removed the react-icons library and copied the icons.'));
                 break;
             case '3':
