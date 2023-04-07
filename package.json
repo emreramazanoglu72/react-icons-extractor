@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "React Icon Optimizer allows you to reduce the build size by deleting unused icons in the React Icons library used in React projects.",
   "main": "index.js",
+  "bin": {
+    "react-icons-extractor": "./index.js"
+  },
   "scripts": {
     "start": "node node_modules/react-icons-extractor/index.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
