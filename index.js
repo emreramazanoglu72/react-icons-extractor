@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require("fs");
 const readline = require('readline');
 const colors = require("colors");
